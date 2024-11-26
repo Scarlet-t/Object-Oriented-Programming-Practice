@@ -1,0 +1,16 @@
+Name: Jenny Zhang
+Email: jzhang503@myseneca.ca
+ID: 142467232
+Date of Completion: 2024/02/02
+
+Through this workshop, my understanding of Dynamic Memory, References, and Overloading was improved, as well as my ability in designing away multiple definitions to uphold the one definition rule in my code.
+
+I struggled a bit with dynamic allocation of memory for part 1, mostly with regards to syntax, though initially I wasn't too sure on when variables should be declared through dynamic allocation of memory, and static memory should be used. I figured out eventually that dynamic allocation is useful when an object should exist even when the current function I was working on finished running. Essentially, the variable declared through dynamic allocation was to operate at a broader scope, rather than cease in its lifespan with the function it was declared in.
+
+References were also initially challenging, though solely as I associate "&" with pulling up the address of a variable. I now know that it operates similarly, in that it passes the variable itself rather than a copy of its value, making it easy to alter at a specific memory and call in separate functions, in the same way that pointer-type parameters did this, but with more readable syntax. 
+
+It wasn't hard to get used to having overloaded functions, and I appreciate that it allows me to have different code, all with similar outcomes but with slight variations to handle different parameter types, be called under the same function name. Something like the "set" function will have had to be named "setRoom" and "setGuests" in C, whereas here I could just call set, and the parameter types determine which function definition is used. This makes recalling functions much easier for when I use them. This appears to be an example of polymorphism, as the same function call varies depending on the items it operates on.
+
+An error I ran into during the DIY portion was the structure "Guest" being called in a function in the implementation file of "Room". I had to fix this without violating the one definition rule, thus I couldn't just include the header file for Guest in the header file for Room. I fixed this by putting a forward declaration, "struct Guest;" in the header file of Room. From my notes, this is the "Forward Declaration" solution to designing away multiple definitions.
+
+In Conclusion, the workshop was a great educational tool for me, I now feel more confident in my ability to program.

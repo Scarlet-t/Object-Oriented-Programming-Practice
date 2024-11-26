@@ -1,0 +1,5 @@
+﻿  main.cpp
+  Time.cpp
+C:\Users\poobie\WinSkool\OOP\ms1\Time.cpp(42,16): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  Generating Code...
+  ms1.vcxproj -> C:\Users\poobie\WinSkool\OOP\ms1\x64\Debug\ms1.exe

@@ -1,0 +1,22 @@
+Name: Jenny Zhang
+Email: jzhang503@myseneca.ca
+ID: 142467232
+Date of Completion: 2024/02/15
+
+I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+
+================================================================================
+
+This workshop focuses on the concept of Encapsulation - implementing data and logic simply for client use, obscuring complexities of a class's implementation.
+
+We worked with classes once again, with private variables and public member functions. Classes are private by default, thus public items (the members functions in this case) had to be explicitly declared to be in the public section of the class. The public member functions are used to alter private items within the code.
+
+The main item seemingly taught in this workshop was the use of constructors and destructors. This feeds into the concept of encapsulation as it obscures complexities of a class's implementation by automatically performing safe initialisation processes as a class object is created. 
+
+The constructor is called when a class object is created. It can be overloaded - an instance of polymorphism - which means that the initialisation process varies depending on the parameters (or lack of that) provided at the initialisation of the class object. 
+
+In workshop 2, we have overloaded constructor Guitar(const char* mod) and Guitar(GuitarStr strs[], int ns, const char* mod). If no arguments are provided by client code, Guitar(const char* mod) is called, where the default value for mod is defined in the header as "Stratocaster". Here, all variables in the Guitar class are set to a safe, empty state. However if arguments for strs, ns, and (optionally) mod are provided, the variables in guitar are defined based on the arguments' values. This removes the need for a member function to be called by client code to define the variables, and prevents the potential for errors from altering values not already set to a safe state. 
+
+The destructor is called after all member functions have finished in execution. It is useful in ensuring that actions that need to be performed before the class's lifespan ends are performed. For example, as memory is allocated to member strings in one of the overloads for the constructor of the Guitar class, my destructor ensures that no memory leak is caused by this action by checking if memory has been allocated to strings (if strings is not nullptr, as the safe empty state for strings without memory allocated is set to nullptr), then deallocates memory if the condition is true. This ensures that there is little potential for a memory leak, no matter how the class is implemented in client code.
+
+Overall, I found this workshop to be insightful, especially in helping me better understand encapsulation in object oriented programming.

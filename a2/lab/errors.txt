@@ -1,0 +1,251 @@
+In file included from Assessment.cpp:13:0:
+Assessment.h:28:12: error: ‘bool seneca::read’ redeclared as different kind of symbol
+  bool read(Assessment& assess, FILE* fptr);
+            ^
+Assessment.h:20:7: error: previous declaration of ‘bool seneca::read(char*, FILE*)’
+  bool read(char* cstr, FILE* fptr);
+       ^
+Assessment.h:28:12: error: ‘Assessment’ was not declared in this scope
+  bool read(Assessment& assess, FILE* fptr);
+            ^
+Assessment.h:28:24: error: ‘assess’ was not declared in this scope
+  bool read(Assessment& assess, FILE* fptr);
+                        ^
+Assessment.h:28:36: error: expected primary-expression before ‘*’ token
+  bool read(Assessment& assess, FILE* fptr);
+                                    ^
+Assessment.h:28:38: error: ‘fptr’ was not declared in this scope
+  bool read(Assessment& assess, FILE* fptr);
+                                      ^
+Assessment.h:33:15: error: variable or field ‘freeMem’ declared void
+  void freeMem(Assessment*& aptr, int size);
+               ^
+Assessment.h:33:15: error: ‘Assessment’ was not declared in this scope
+Assessment.h:33:28: error: ‘aptr’ was not declared in this scope
+  void freeMem(Assessment*& aptr, int size);
+                            ^
+Assessment.h:33:34: error: expected primary-expression before ‘int’
+  void freeMem(Assessment*& aptr, int size);
+                                  ^
+In file included from Assessment.cpp:13:0:
+Assessment.h:45:11: error: ‘int seneca::read’ redeclared as different kind of symbol
+  int read(Assessment*& aptr, FILE* fptr);
+           ^
+In file included from Assessment.cpp:13:0:
+Assessment.h:20:7: error: previous declaration of ‘bool seneca::read(char*, FILE*)’
+  bool read(char* cstr, FILE* fptr);
+       ^
+In file included from Assessment.cpp:13:0:
+Assessment.h:45:11: error: ‘Assessment’ was not declared in this scope
+  int read(Assessment*& aptr, FILE* fptr);
+           ^
+Assessment.h:45:24: error: ‘aptr’ was not declared in this scope
+  int read(Assessment*& aptr, FILE* fptr);
+                        ^
+Assessment.h:45:34: error: expected primary-expression before ‘*’ token
+  int read(Assessment*& aptr, FILE* fptr);
+                                  ^
+Assessment.h:45:36: error: ‘fptr’ was not declared in this scope
+  int read(Assessment*& aptr, FILE* fptr);
+                                    ^
+Assessment.cpp:63:12: error: ‘bool seneca::read’ redeclared as different kind of symbol
+  bool read(Assessment& assess, FILE* fptr) {
+            ^
+Assessment.cpp:46:7: error: previous declaration of ‘bool seneca::read(char*, FILE*)’
+  bool read(char* cstr, FILE* fptr) {
+       ^
+Assessment.cpp:63:12: error: ‘Assessment’ was not declared in this scope
+  bool read(Assessment& assess, FILE* fptr) {
+            ^
+Assessment.cpp:63:24: error: ‘assess’ was not declared in this scope
+  bool read(Assessment& assess, FILE* fptr) {
+                        ^
+Assessment.cpp:63:36: error: expected primary-expression before ‘*’ token
+  bool read(Assessment& assess, FILE* fptr) {
+                                    ^
+Assessment.cpp:63:38: error: ‘fptr’ was not declared in this scope
+  bool read(Assessment& assess, FILE* fptr) {
+                                      ^
+Assessment.cpp:115:1: error: expected ‘}’ at end of input
+ }
+ ^
+In file included from main_prof.cpp:21:0:
+Assessment.h:28:12: error: ‘bool seneca::read’ redeclared as different kind of symbol
+  bool read(Assessment& assess, FILE* fptr);
+            ^
+Assessment.h:20:7: error: previous declaration of ‘bool seneca::read(char*, FILE*)’
+  bool read(char* cstr, FILE* fptr);
+       ^
+Assessment.h:28:12: error: ‘Assessment’ was not declared in this scope
+  bool read(Assessment& assess, FILE* fptr);
+            ^
+Assessment.h:28:24: error: ‘assess’ was not declared in this scope
+  bool read(Assessment& assess, FILE* fptr);
+                        ^
+Assessment.h:28:36: error: expected primary-expression before ‘*’ token
+  bool read(Assessment& assess, FILE* fptr);
+                                    ^
+Assessment.h:28:38: error: ‘fptr’ was not declared in this scope
+  bool read(Assessment& assess, FILE* fptr);
+                                      ^
+Assessment.h:33:15: error: variable or field ‘freeMem’ declared void
+  void freeMem(Assessment*& aptr, int size);
+               ^
+Assessment.h:33:15: error: ‘Assessment’ was not declared in this scope
+Assessment.h:33:28: error: ‘aptr’ was not declared in this scope
+  void freeMem(Assessment*& aptr, int size);
+                            ^
+Assessment.h:33:34: error: expected primary-expression before ‘int’
+  void freeMem(Assessment*& aptr, int size);
+                                  ^
+In file included from main_prof.cpp:21:0:
+Assessment.h:45:11: error: ‘int seneca::read’ redeclared as different kind of symbol
+  int read(Assessment*& aptr, FILE* fptr);
+           ^
+In file included from main_prof.cpp:21:0:
+Assessment.h:20:7: error: previous declaration of ‘bool seneca::read(char*, FILE*)’
+  bool read(char* cstr, FILE* fptr);
+       ^
+In file included from main_prof.cpp:21:0:
+Assessment.h:45:11: error: ‘Assessment’ was not declared in this scope
+  int read(Assessment*& aptr, FILE* fptr);
+           ^
+Assessment.h:45:24: error: ‘aptr’ was not declared in this scope
+  int read(Assessment*& aptr, FILE* fptr);
+                        ^
+Assessment.h:45:34: error: expected primary-expression before ‘*’ token
+  int read(Assessment*& aptr, FILE* fptr);
+                                  ^
+Assessment.h:45:36: error: ‘fptr’ was not declared in this scope
+  int read(Assessment*& aptr, FILE* fptr);
+                                    ^
+In file included from main_prof.cpp:22:0:
+Assessment.h:28:12: error: ‘bool seneca::read’ redeclared as different kind of symbol
+  bool read(Assessment& assess, FILE* fptr);
+            ^
+Assessment.h:20:7: error: previous declaration of ‘bool seneca::read(char*, FILE*)’
+  bool read(char* cstr, FILE* fptr);
+       ^
+Assessment.h:28:12: error: ‘Assessment’ was not declared in this scope
+  bool read(Assessment& assess, FILE* fptr);
+            ^
+Assessment.h:28:24: error: ‘assess’ was not declared in this scope
+  bool read(Assessment& assess, FILE* fptr);
+                        ^
+Assessment.h:28:36: error: expected primary-expression before ‘*’ token
+  bool read(Assessment& assess, FILE* fptr);
+                                    ^
+Assessment.h:28:38: error: ‘fptr’ was not declared in this scope
+  bool read(Assessment& assess, FILE* fptr);
+                                      ^
+Assessment.h:33:15: error: variable or field ‘freeMem’ declared void
+  void freeMem(Assessment*& aptr, int size);
+               ^
+Assessment.h:33:15: error: ‘Assessment’ was not declared in this scope
+Assessment.h:33:28: error: ‘aptr’ was not declared in this scope
+  void freeMem(Assessment*& aptr, int size);
+                            ^
+Assessment.h:33:34: error: expected primary-expression before ‘int’
+  void freeMem(Assessment*& aptr, int size);
+                                  ^
+In file included from main_prof.cpp:22:0:
+Assessment.h:45:11: error: ‘int seneca::read’ redeclared as different kind of symbol
+  int read(Assessment*& aptr, FILE* fptr);
+           ^
+In file included from main_prof.cpp:22:0:
+Assessment.h:20:7: error: previous declaration of ‘bool seneca::read(char*, FILE*)’
+  bool read(char* cstr, FILE* fptr);
+       ^
+In file included from main_prof.cpp:22:0:
+Assessment.h:45:11: error: ‘Assessment’ was not declared in this scope
+  int read(Assessment*& aptr, FILE* fptr);
+           ^
+Assessment.h:45:24: error: ‘aptr’ was not declared in this scope
+  int read(Assessment*& aptr, FILE* fptr);
+                        ^
+Assessment.h:45:34: error: expected primary-expression before ‘*’ token
+  int read(Assessment*& aptr, FILE* fptr);
+                                  ^
+Assessment.h:45:36: error: ‘fptr’ was not declared in this scope
+  int read(Assessment*& aptr, FILE* fptr);
+                                    ^
+In file included from main_prof.cpp:23:0:
+Assessment.h:28:12: error: ‘bool seneca::read’ redeclared as different kind of symbol
+  bool read(Assessment& assess, FILE* fptr);
+            ^
+Assessment.h:20:7: error: previous declaration of ‘bool seneca::read(char*, FILE*)’
+  bool read(char* cstr, FILE* fptr);
+       ^
+Assessment.h:28:12: error: ‘Assessment’ was not declared in this scope
+  bool read(Assessment& assess, FILE* fptr);
+            ^
+Assessment.h:28:24: error: ‘assess’ was not declared in this scope
+  bool read(Assessment& assess, FILE* fptr);
+                        ^
+Assessment.h:28:36: error: expected primary-expression before ‘*’ token
+  bool read(Assessment& assess, FILE* fptr);
+                                    ^
+Assessment.h:28:38: error: ‘fptr’ was not declared in this scope
+  bool read(Assessment& assess, FILE* fptr);
+                                      ^
+Assessment.h:33:15: error: variable or field ‘freeMem’ declared void
+  void freeMem(Assessment*& aptr, int size);
+               ^
+Assessment.h:33:15: error: ‘Assessment’ was not declared in this scope
+Assessment.h:33:28: error: ‘aptr’ was not declared in this scope
+  void freeMem(Assessment*& aptr, int size);
+                            ^
+Assessment.h:33:34: error: expected primary-expression before ‘int’
+  void freeMem(Assessment*& aptr, int size);
+                                  ^
+In file included from main_prof.cpp:23:0:
+Assessment.h:45:11: error: ‘int seneca::read’ redeclared as different kind of symbol
+  int read(Assessment*& aptr, FILE* fptr);
+           ^
+In file included from main_prof.cpp:23:0:
+Assessment.h:20:7: error: previous declaration of ‘bool seneca::read(char*, FILE*)’
+  bool read(char* cstr, FILE* fptr);
+       ^
+In file included from main_prof.cpp:23:0:
+Assessment.h:45:11: error: ‘Assessment’ was not declared in this scope
+  int read(Assessment*& aptr, FILE* fptr);
+           ^
+Assessment.h:45:24: error: ‘aptr’ was not declared in this scope
+  int read(Assessment*& aptr, FILE* fptr);
+                        ^
+Assessment.h:45:34: error: expected primary-expression before ‘*’ token
+  int read(Assessment*& aptr, FILE* fptr);
+                                  ^
+Assessment.h:45:36: error: ‘fptr’ was not declared in this scope
+  int read(Assessment*& aptr, FILE* fptr);
+                                    ^
+main_prof.cpp:26:20: error: ‘Assessment’ does not name a type
+ void display(const Assessment& a);
+                    ^
+main_prof.cpp:26:32: error: ISO C++ forbids declaration of ‘a’ with no type [-fpermissive]
+ void display(const Assessment& a);
+                                ^
+main_prof.cpp: In function ‘int main()’:
+main_prof.cpp:31:7: error: ‘Assessment’ was not declared in this scope
+       Assessment* aptr = nullptr;
+       ^
+main_prof.cpp:31:19: error: ‘aptr’ was not declared in this scope
+       Assessment* aptr = nullptr;
+                   ^
+main_prof.cpp:48:27: error: ‘freeMem’ was not declared in this scope
+          freeMem(aptr, cnt);
+                           ^
+main_prof.cpp: At global scope:
+main_prof.cpp:56:20: error: ‘Assessment’ does not name a type
+ void display(const Assessment& a) {
+                    ^
+main_prof.cpp:56:32: error: ISO C++ forbids declaration of ‘a’ with no type [-fpermissive]
+ void display(const Assessment& a) {
+                                ^
+main_prof.cpp: In function ‘void display(const int&)’:
+main_prof.cpp:60:14: error: request for member ‘m_title’ in ‘a’, which is of non-class type ‘const int’
+    cout << a.m_title << ": " << *a.m_mark << endl;
+              ^
+main_prof.cpp:60:36: error: request for member ‘m_mark’ in ‘a’, which is of non-class type ‘const int’
+    cout << a.m_title << ": " << *a.m_mark << endl;
+                                    ^

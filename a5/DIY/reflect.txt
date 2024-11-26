@@ -1,0 +1,23 @@
+/* 
+Name: Jenny Zhang
+Email: jzhang503@myseneca.ca
+ID: 142467232
+Date of Completion: 2024/02/24
+
+I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+
+*/
+
+This workshop introduced a number of concepts of which I will reflect on.
+
+I learned how to overload operators, meaning logic performed is varied based on the types involved - this is an example of polymorphism. I still struggle with the syntax for declaring the conversion operators, but implementing their definition is no different than doing the same for a regular function.
+
+A type of operator I learned to create is the conversion operator, which converts an object to another type implicitly or explicitly. Conversion operators were used in the lab portion, like with operator bool() const which converts a bankAccount object to a bool using logic encapsulated in the overloaded operator definition.
+
+I also learned to do the same for unary member operators, which can be pre-fix or post-fix. Pre-fix take no parameters, whereas post-fix take int. Unary operators increment the current object by a value then return a reference to it. For example, bankAccount& operator++() in the lab increments funds by interest, making it unary (pre-fix). I think that this sort of operator was the most intuitive to understand.
+
+Another is the binary member operators, which essentially performs logic involving involving a left hand operand (the current object) and a right hand operand. Hero& operator+=(const Power& power) in DIY adds power (right hand operand) to the array of pointers to powers in a Hero object, making it a binary operator. This one was less initially easy to grasp, as I associate += with the default arithmetic operation.
+
+Then there are helper functions which help perform specific tasks to support the main functions, for better management. Helper functions can be "friendly". This concept was harder to grasp as "Friend" reveals little about how it affects items in my code. What I learned is that friendship allows for access to private class items by helper functions, which was how I managed to implement operators like >> and << in the DIY portion.
+
+Formatting was something I used to struggle with significantly, I think I'm slowly grasping the syntax better, though I wonder if there's a way to make my code more efficient (like reducing the lines of code I use to perform the same thing). 

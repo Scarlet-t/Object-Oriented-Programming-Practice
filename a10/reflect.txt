@@ -1,0 +1,18 @@
+Name: Jenny Zhang
+Email: jzhang503@myseneca.ca
+ID: 142467232
+Date of Completion: 2024/04/09
+
+I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+
+--------------------------------------------------------------------------------
+
+This workshop was my second experience with templates (the first being milestone 5). I'm still getting comfortable using templates, but this workshop - and MS5 - served as good entries to the topic. 
+
+The workshop taught me the basics - I learned the syntax for defining class and function templates, as well as the parameters involved. Typename and class are there to identify a type - they're placeholders for the actual type to be used. 
+
+I coded a struct (class) template and two function templates - the syntax for both are pretty similar. Using placeholder parameters T and U of typename (or class, in the case of the class template) made things very versatile - any type can be substituted into the template when it is called. For example, releaseMem (T* arrptr), where T is Typename, is called with ret1, ret2, ret3, ..., ret6 as parameters in main, where all ret[n] are of different types. 
+
+This helped me learn about the way that templates are just another instance of polymorphism, the placeholder types allow for multiple types of objects to be operated on by the same function without having to use multiple functions or function overloading. It also allows for different types to be defined under the same sort of class structure without needing to define multiple classes. This increases convenience and decreases redundant code, which I appreciate.
+
+I struggled mostly with syntax initially, but coding multiple templates remedied that. I didn't run into much issues as this was a pretty straightforward workshop. Nonetheless it was very informative and taught me the basics of templates as well as polymorphism in Object Oriented Programming.

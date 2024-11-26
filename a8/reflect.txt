@@ -1,0 +1,20 @@
+Name: Jenny Zhang
+Email: jzhang503@myseneca.ca
+ID: 142467232
+Date of Completion: 2024/03/22
+
+I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+
+++==============================++
+
+Through the workshop and ms2 I learned what a pure virtual function is, which is a function with no implementation in the base class but needs to be implemented in the derived class. 
+
+I also learned that a class is an abstract class if it declares at least a pure virtual function as it cannot be instantiated to an object. An abstract base class is a base class that provides a common interface for all the derived class and could contain both pure virtual functions and regular functions. 
+
+The Account class in the workshop presents an abstract base class because its derivative classes, SavingsAccount, and ChequingAccount, are derived from it and shares common functions. 
+
+I also learned how the concrete class implements the pure virtual functions. Implementing the virtual functions in the derivative class has helped me understand how to use them. I learned through an error that the derivative class must implement all the pure virtual functions that are found in the base class. the hands-on experience helped me better understand the concepts we had gone through in the course.
+
+I also now better understand how an abstract base class differs from a concrete class. An abstract class is a class that has one or more pure virtual functions and cannot be instantiated. A concrete class is a type of class that can be instantiated and has no pure virtual function introduction. 
+
+I faced some challenges while working through this workshop, the error part being mainly the syntax. I found various syntax errors as I was doing my implementation. But in the end, my understanding of polymorphism increased.

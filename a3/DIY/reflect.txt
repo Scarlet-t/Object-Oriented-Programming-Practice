@@ -1,0 +1,17 @@
+Name: Jenny Zhang
+Email: jzhang503@myseneca.ca
+ID: 142467232
+Date of Completion: 2024/02/11
+
+I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+===========================================================================
+
+This Workshop had a focus on teaching about the concept of encapsulation. We worked with classes for the first time, which unlike structures are private by default (whereas structures are public by default). Classes being private means that items within it, not defined as public, are not accessible to client code. Using my code an example, only member functions of IceCream can operate on private variables in IceCream. The hiding of the complex member functions and variables within the class is an example of encapsulation.
+
+I used a constructor in my classes such that a procedure could execute at the creation of an object of the Vendor class. This would be the opening screen, which takes the number of Ice Creams being vended. This number is important as it affects most of the member functions, thus ensuring that it's always defined is important.
+
+I also worked with public member functions in a class as a means to alter private variables within the same object of the class. As the member functions were defined to be public, I was able to call them in an external code, in my case I called them in Vendor.cpp through an IceCream object, to alter items of the IceCream object without violating the class' privacy rules.
+
+Dynamic memory allocation was once again used to allocate memory an array of pointers of IceCream class objects. This allowed for more flexibility in the number of IceCream orders being made.
+
+In conclusion, this workshop seems to aim to broaden one's understanding of encapsulation in object oriented programming. I can confidently say that I better understand the use of classes now than I did before.

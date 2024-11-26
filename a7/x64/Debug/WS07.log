@@ -1,0 +1,14 @@
+﻿  BankAccount.cpp
+C:\Users\poobie\WinSkool\OOP\a7\BankAccount.h(7,8): warning C4099: 'seneca::DepositInfo': type name first seen using 'struct' now seen using 'class'
+  (compiling source file 'BankAccount.cpp')
+  C:\Users\poobie\WinSkool\OOP\a7\DepositUtility.h(37,9):
+  see declaration of 'seneca::DepositInfo'
+  
+  SavingsAccount.cpp
+C:\Users\poobie\WinSkool\OOP\a7\BankAccount.h(7,8): warning C4099: 'seneca::DepositInfo': type name first seen using 'struct' now seen using 'class'
+  (compiling source file 'SavingsAccount.cpp')
+  C:\Users\poobie\WinSkool\OOP\a7\DepositUtility.h(37,9):
+  see declaration of 'seneca::DepositInfo'
+  
+  Generating Code...
+  WS07.vcxproj -> C:\Users\poobie\WinSkool\OOP\a7\x64\Debug\WS07.exe

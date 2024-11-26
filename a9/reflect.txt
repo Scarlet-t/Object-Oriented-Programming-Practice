@@ -1,0 +1,20 @@
+Name: Jenny Zhang
+Email: jzhang503@myseneca.ca
+ID: 142467232
+Date of Completion: 2024/04/04
+
+I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+
+By completing this workshop, my understanding of the Rule of Three and the way it helps with managing memory allocation and deallocation increased.
+
+The rule of three requires that a class has a copy constructor, a copy assignment operator, and a destructor. The three ensure that dynamic memory is properly handled in the program.
+
+In this context, I used the principle in those three functions in classes LibraryItem and Book. I used the copy assignment operator as the main copy function, and called it in the copy constructor. I then made sure that dynamically allocated memory using new[] was always deleted using delete[], and that the destructor would always tend to memory that was not deallocated. Using the three functions involved in the rule of three, I properly handled memory in my program.
+
+I also better understand the concepts of inheritance and polymorphism. In this context, inheritance is illustrated in the way that some of the the base class's (LibraryItem) functionalities extend to that of the derived class (Book), and polymorphism is illustrated in the specialised behaviour of certain functions, like display, in Books, compared to in LibraryItem.
+
+I reflect on the learning experience and understand that my implementation of this and the use of inheritance and polymorphism were correct, though I had some syntax errors and my slight carelessness caused some memory leaks. I found it challenging to locate memory leaks and struggled on the correct syntax for calling and using a base class constructor or a destructor. I eventually found the errors though, and the process of doing so helped me better learn about the concepts. 
+
+Though I had some issues with syntax and had some memory leaks due to carelessness, I fixed those relatively quickly. I think that my understanding of these concepts, especially polymorphism and inheritance, is pretty well rounded, and this workshop definitely helped. 
+
+Through this workshop I was able to better understand concepts of object oriented programming as a whole.
